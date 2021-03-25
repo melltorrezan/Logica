@@ -2,17 +2,17 @@ Algoritmo "par ou ímpar"
 
 Var
 
-    n1 : inteiro
+    n : inteiro
 
 Inicio
 
 escreval("Digite um número: ")
-leia (n1)
-se (n1 mod 2 = 0 ) entao
+leia (n)
+se (n mod 2 = 0 ) entao
 
-escreval("O número", n1, " é par.")
+escreval("O número", n, " é par.")
 senao
-escreval("O número", n1, " é ímpar.")
+escreval("O número", n, " é ímpar.")
 
  fimse
 
